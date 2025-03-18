@@ -9,6 +9,8 @@
 /* Estilizando o corpo da página */
 body {
     background-image: url('imagens/Imagem1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;

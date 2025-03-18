@@ -9,6 +9,8 @@
 /* Estilizando o corpo da página */
 body {
     background-image: url('imagens/fundo2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;
@@ -53,7 +55,14 @@ nav ul li a {
     border-radius: 5px;
     margin-top: 10px;
 }
+form{
+ margin : auto;
+ text-align: center;
+}
 
+#card label{
+    align-items: top;
+}
 /* Seções gerais */
 section {
         background-color: rgba(0, 0, 0, 0.6); /* Cor branca com 70% de opacidade */
@@ -94,4 +103,7 @@ footer {
 
 .btn:hover {
     background-color: black;
+}
+.mySlidesfade{
+    width: 50%;
 }

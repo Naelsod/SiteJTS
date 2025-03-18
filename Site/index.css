@@ -5,10 +5,14 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
+p{
+    color: wheat;
+}
 /* Estilizando o corpo da página */
 body {
     background-image: url('imagens/fundo2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;

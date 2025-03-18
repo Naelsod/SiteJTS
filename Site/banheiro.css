@@ -9,6 +9,8 @@
 /* Estilizando o corpo da página */
 body {
     background-image: url('imagens/Banheirofundo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;
@@ -90,4 +92,15 @@ footer {
 
 .btn:hover {
     background-color: black;
+}
+.slideshow-container{
+width: 50%;
+margin : auto;
+}
+@media screen and (max-width:525px){
+
+    .slideshow-container{
+        width: 100%;
+        margin : auto;  
+}
 }
