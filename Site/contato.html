@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Solicitação de Serviço</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <header>
+        <h1>JTS LOCAÇÂO DE BENS MOVEIS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="maquinas.html">Máquinas</a></li>
+                <li><a href="fossa.html">Fossas</a></li>
+                <li><a href="banheiro.html">Banheiros</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="formulario">
+        <h2>Preencha o formulário </h2>
+        <h2>para solicitar um serviço</h2>
+        <form action="enviar.php" method="POST">
+            <div id="card">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div id="card">>
+                <label for="telefone">Número de Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+            <div id="card">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div id="card">
+                <label for="descricao">Descrição do Serviço:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            </div>
+            <div id="card">
+                <label for="data">Previsão da Data:</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+            <button type="submit" class="btn">Enviar Solicitação</button>
+        </form>
+        <p>Entraremos em contato em ate 5 dias para confirmar o serviço e o Orçamento</p>
+    </section>
+        <br>
+    <section id="servicos">
+        <h2>Nosso card</h2>
+        <div class="video">
+            <img src="imagens/JTS.jpeg" width="50%" alt="">
+        </div>
+        
+    </section>
+
+        <br>
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>📞 Telefone: (34) 9935-1528</p>
+        <p>📱 WhatsApp: (34) 9935-1528</p>
+        <p>📧 E-mail: jtslocadora@hotmail.com</p>
+        <p>@ Intagram: <a href="https://www.instagram.com/jtslocacao/" target="_blank">jtslocacao</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 JTS LOCAÇÂO DE BENS MOVEIS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

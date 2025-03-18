@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background-image: url('imagens/Imagem1.jpeg'); /* Coloque o caminho da sua imagem aqui */
+    background-size: cover; /* Para cobrir toda a área */
+    background-position: center; /* Para centralizar a imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    color: white; /* Cor do texto */
+    font-size: 3em; /* Tamanho da fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar o texto */
+}
+
+.description {
+    color: white; /* Cor do texto */
+    font-size: 1.5em; /* Tamanho da fonte */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra para destacar o texto */
+}
