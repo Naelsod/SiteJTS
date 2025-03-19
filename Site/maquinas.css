@@ -11,6 +11,7 @@ body {
     background-image: url('imagens/Imagem1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     background-position-x: center;
     background-position-y: 50%;
     background-color: #f4f4f4;
@@ -40,36 +41,47 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-#intro{
+
+#intro {
     flex-direction: column;
     display: flex;
     justify-content: center;
     font-size: 150%;
     color: wheat;
+    overflow: hidden;
 }
+
 /* Seção de destaque (Hero Section) */
 #hero {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     color: wheat;
     padding: 50 px;
 }
 
 /* Seções gerais */
 section {
-        background-color: rgba(0, 0, 0, 0.6); /* Cor branca com 70% de opacidade */
-        border-radius: 100px; /* Bordas arredondadas */
-        padding: 20px; /* Espaçamento interno */
-        margin: 10px; /* Espaçamento externo entre os cards */
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para o cartão */
-        width: 70%px; /* Largura do cartão */
-        text-align: center; /* Centraliza o texto */
-        
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cor branca com 70% de opacidade */
+    border-radius: 100px;
+    /* Bordas arredondadas */
+    padding: 2px;
+    /* Espaçamento interno */
+    margin: 1px;
+    /* Espaçamento externo entre os cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    /* Sombra para o cartão */
+    width: 550px;
+    /* Largura do cartão */
+    text-align: center;
+    /* Centraliza o texto */
+
 }
 
 h2 {
     color: rgb(255, 153, 0);
 }
-h3{
+
+h3 {
     color: rgb(255, 153, 0);
 }
 
@@ -80,6 +92,7 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
 /* Estilização dos botões */
 .btn {
     display: inline-block;
@@ -96,15 +109,152 @@ footer {
     background-color: black;
 }
 
-.slideshow-container{
+.slideshow-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.video {
+    gap: 50px;
     width: 50%;
-    margin : auto;
-    }
-    @media screen and (max-width:525px){
-    
-        .slideshow-container{
-            width: 100%;
-            margin : auto;  
-    }
-    
-    }
+    margin: auto;
+}
+
+.secao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:525px) {
+/* Reset básico para remover margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o corpo da página */
+body {
+    background-image: url('imagens/Imagem1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-color: #f4f4f4;
+    color: wheat;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: wheat;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#intro {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    color: wheat;
+    overflow: hidden;
+}
+
+/* Seção de destaque (Hero Section) */
+#hero {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
+    padding: 50 px;
+}
+
+/* Seções gerais */
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cor branca com 70% de opacidade */
+    border-radius: 100px;
+    /* Bordas arredondadas */
+    padding: 2px;
+    /* Espaçamento interno */
+    margin: 1px;
+    /* Espaçamento externo entre os cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    /* Sombra para o cartão */
+    width: 100%;
+    /* Largura do cartão */
+    text-align: center;
+    /* Centraliza o texto */
+
+}
+
+h2 {
+    color: rgb(255, 153, 0);
+}
+
+h3 {
+    color: rgb(255, 153, 0);
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Estilização dos botões */
+.btn {
+    display: inline-block;
+    background-color: rgb(223, 155, 30);
+    color: wheat;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.slideshow-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.video {
+    gap: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.secao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+}
