@@ -122,7 +122,9 @@ footer {
     padding: 10px;
     width: 350px;
 }
-
+#formulario{
+    padding: 10px;
+}
 .secao{
     align-items: center;
     display: flex;
@@ -211,9 +213,10 @@ nav ul li a {
     margin-top: 10px;
 }
 form{
+    
  margin : auto;
  text-align: center;
- padding: 5px;
+ padding: 1px;
 }
 
 #card{
