@@ -11,8 +11,8 @@ p{
 /* Estilizando o corpo da página */
 body {
     background-image: url('imagens/fundo2.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 50%;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;
@@ -79,7 +79,7 @@ h3{
 /* Rodapé */
 footer {
     background-color: black;
-    color: white;
+    color: rgb(0, 3, 1);
     padding: 15px;
     margin-top: 20px;
 }

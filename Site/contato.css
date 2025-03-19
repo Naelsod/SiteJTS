@@ -9,9 +9,11 @@
 /* Estilizando o corpo da página */
 body {
     background-image: url('imagens/fundo2.jpeg');
+    background-color: #050202;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #f4f4f4;
+    background-position-x: center;
+    margin :auto;
+    
     color: wheat;
     text-align: center;
 }
@@ -58,11 +60,15 @@ nav ul li a {
 form{
  margin : auto;
  text-align: center;
+ padding: 5px;
 }
 
-#card label{
-    align-items: top;
+#card{
+    
+    text-align: right;
+
 }
+
 /* Seções gerais */
 section {
         background-color: rgba(0, 0, 0, 0.6); /* Cor branca com 70% de opacidade */
@@ -70,7 +76,7 @@ section {
         padding: 50%px; /* Espaçamento interno */
         margin: 50%px; /* Espaçamento externo entre os cards */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para o cartão */
-        width: 50%px; /* Largura do cartão */
+        width: 500px; /* Largura do cartão */
         text-align: center; /* Centraliza o texto */
         
 }
@@ -106,4 +112,25 @@ footer {
 }
 .mySlidesfade{
     width: 50%;
+}
+
+#card{
+    display:flex;
+    object-position: center;
+    border-radius: 20px;
+    background-color: rgb(223, 155, 30);
+    padding: 10px;
+    width: 350px;
+    align-content: center;
+}
+.jogo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao{
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
 }

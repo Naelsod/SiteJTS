@@ -11,6 +11,8 @@ body {
     background-image: url('imagens/Banheirofundo.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 70%;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;
@@ -103,4 +105,5 @@ margin : auto;
         width: 100%;
         margin : auto;  
 }
+
 }

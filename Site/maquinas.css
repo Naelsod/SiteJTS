@@ -11,6 +11,8 @@ body {
     background-image: url('imagens/Imagem1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 50%;
     background-color: #f4f4f4;
     color: wheat;
     text-align: center;
@@ -93,3 +95,16 @@ footer {
 .btn:hover {
     background-color: black;
 }
+
+.slideshow-container{
+    width: 50%;
+    margin : auto;
+    }
+    @media screen and (max-width:525px){
+    
+        .slideshow-container{
+            width: 100%;
+            margin : auto;  
+    }
+    
+    }
