@@ -121,4 +121,142 @@ footer {
     flex-direction: column;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
+@media screen and (max-width:525px){
+/* Reset básico para remover margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+p {
+    color: wheat;
+}
+
+/* Estilizando o corpo da página */
+body {
+    background-image: url('imagens/fundo2.jpeg');
+    background-position-x: center;
+    background-position-y: 50%;
+    background-size: cover;
+    background-color: #f4f4f4;
+    color: wheat;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: wheat;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção de destaque (Hero Section) */
+#hero {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 50px;
+}
+
+#hero .btn {
+    display: inline-block;
+    background-color: rgb(255, 153, 0);
+    color: wheat;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Seções gerais */
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cor branca com 70% de opacidade */
+    border-radius: 100px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin: 10px;
+    /* Espaçamento externo entre os cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Sombra para o cartão */
+    width: 70%;
+    /* Largura do cartão */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+h1 {
+    color: rgb(255, 153, 0);
+}
+
+h2 {
+    color: rgb(255, 153, 0);
+}
+
+h3 {
+    color: rgb(255, 153, 0);
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: rgb(0, 3, 1);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Estilização dos botões */
+.btn {
+    display: inline-block;
+    background-color: rgb(223, 155, 30);
+    color: wheat;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.secao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
+}

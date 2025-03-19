@@ -107,7 +107,14 @@ margin : auto;
 }
 
 @media screen and (max-width:525px){
-* {
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden; /* Evita rolagem horizontal */
+    }
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
